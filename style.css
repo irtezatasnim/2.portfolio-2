@@ -1,3 +1,100 @@
-h1{
-    color: red;
+body{
+    margin: 0%;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 19px;
+}
+.pink_highlight{
+    color: hotpink;
+    font-size: 40px;
+}
+.pink_button{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-image:linear-gradient(90deg,pink,hotpink) ;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+section{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    /* border: 1px solid red; */
+}
+.first_page_block{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.biography_page_block{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.work_page img{
+    float: left;
+    margin-top: 120px;
+    margin-left: 35px;
+    width: 30%;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.work_page img:hover{
+    transform: scale(1.10);
+}
+.first_page_text_content{
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.biography_page_text_content{
+    margin-top: 250px;
+}
+.work_page_text_content{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.img_block{
+    margin-top: 50px;
+}
+.img_block img{
+    width: 80%;
+}
+.first_page{
+    background: url("images/header-bg.png");
+    background-size: cover;
+}
+.biography_page{
+    background-image: url("images/biography-bg.png");
+    background-size: cover;
+}
+.work_page{
+    background-image: url("images/latest-work-bg.png");
+    background-size: cover;
+}
+.feedback_page{
+    background-image: url("images/footer-bg.png");
+    background-size: cover;
+    text-align: center;
+}
+.feedback_page_block{
+    margin-top: 100px;
+}
+.feedback_page_button{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-image:linear-gradient(90deg,pink,hotpink) ;
+    padding: 50px 100px;
+    border-radius: 5px;
+}
+.free{
+    text-align: center;
 }
